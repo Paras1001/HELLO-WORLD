@@ -3,7 +3,8 @@ using namespace std;
 
 main()
 {
-	int num1 , num2 , res , op ;
+	double num1 , num2 , res;
+	int op;
 	cout<<"calculator";
 	cout<<"\n1. addition";
 	cout<<"\n2. subtraction";
