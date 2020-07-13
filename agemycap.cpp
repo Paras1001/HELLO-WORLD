@@ -2,6 +2,7 @@
 using namespace std;
 int main()
 {
+	//program to check user eligible to vote or not
 	int age;
 	cout<<"enter your age :";
 	cin>>age;
