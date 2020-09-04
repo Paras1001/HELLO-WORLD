@@ -5,9 +5,9 @@ int main()
 	char grade,n;        
 	printf("\t\tGrade Calculation....!\n");
 	printf("\nEnter name : ");
-	scanf("%s",&n);
+	scanf("%s",&n);          //Enter name
 	printf("\nEnter marks : ");
-	scanf("%d",&marks);
+	scanf("%d",&marks);     //Enter marks obtained by student
 	
 	if( marks>=85 && marks<=100)
 	{
@@ -30,7 +30,7 @@ int main()
 		grade='F';
 	}
 	
-	printf("\nGrade = %c",grade);
+	printf("\nGrade = %c",grade);           //output : grade , according to marks obtained
 	
 	return 0;
 }
